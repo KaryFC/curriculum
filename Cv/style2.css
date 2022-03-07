@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@600&family=Indie+Flower&family=Merienda&family=Pacifico&family=Playfair+Display:ital,wght@1,400;1,500;1,700&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@600&family=Indie+Flower&family=Merienda&family=Pacifico&family=Playfair+Display:wght@600&family=Redressed&display=swap');
+
+
+header{
+    background-color: #1D3E53;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+.nombre{
+    font-family: 'Playfair Display', serif;
+
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.profecion{
+    font-size: 15px;
+    margin: 0 0 0 25px;
+    text-align: center;
+}
+.titulo{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 55px;
+}
+img{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin-top: 20px;
+}
+p{
+    margin: 5px 0;
+}
+.fechas{
+    color: #85F4FF;
+}
+.seglar{
+    font-size: 20px;
+}
+
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+
+}
+main{
+    margin-left: 30px;
+}
+
+/*=========derecha==========*/
+
+.historial{
+    text-align: center;
+    color: #254B62;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.habilidades{
+    text-align: center;
+    list-style: none;
+}
+
+
+/**************** LISTAS****************/
+.progreso{
+    list-style: none;
+    
+}
+.progreso li:first-child{
+    background-color: #1D3E53;
+    width: 55%;
+    color: #85F4FF;
+}
+.progreso li:nth-child(2){
+    background-color: #254B62;
+    width: 45%;
+    margin-top: 2px;
+    color: #85F4FF;
+}
+.progreso li:nth-child(3){
+    background-color: #1D3E53;
+    width: 2%;
+    color: #85F4FF;
+}
+.progreso li:nth-child(4){
+    background-color: #254B62;
+    width: 60%;
+    color: #85F4FF;
+    margin: 2px;
+}
+.progreso li:nth-child(5){
+    background-color: #1D3E53;
+    width: 30%;
+    color: #85F4FF;
+}
+
+
+.correo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(telefono.png);
+    
+}
+.intereses{
+    list-style: none;
+    text-align: center;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+    color: #85F4FF;
+}
